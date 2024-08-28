@@ -27,6 +27,7 @@
 		text-decoration: none;
 		transition: background-color 0.5s;
 		font-weight: bold;
+		margin-bottom: 5px;
 		border: solid 2px #00bfb2;
 	}
 

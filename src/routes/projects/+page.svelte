@@ -117,7 +117,7 @@
 	.home_button {
 		width: 100%;
 		position: absolute;
-		top: 30px;
+		top: 15px;
 		display: flex;
 		justify-content: center;
 	}

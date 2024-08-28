@@ -9,14 +9,6 @@ export const projects = [
 		projectImage: 'emote_logo.png'
 	},
 	{
-		projectName: 'Zooplankton Image Classification',
-		projectDescription: `Development of a convolutional neural network using PyTorch for gelatinous 
-			zooplankton classification, thus automating the labeling of species on GelAvista Mobile APP. 
-	This project was done as a Capstone Project upon completion of the Bsc`,
-		projectLinks: [],
-		projectImage: 'gelavista_logo.png'
-	},
-	{
 		projectName: 'StoryWeaver',
 		projectDescription: `My Master Thesis project entitled "Enabling Co-Creation for Augmented Reality: 
 				A User-Friendly Narrative Editor for Cultural Heritage Experiences". 
@@ -53,6 +45,14 @@ export const projects = [
 			{ text: 'See the code', link: 'https://github.com/JFernandes2612/Miasma' }
 		],
 		projectImage: 'miasma_logo.png'
+	},
+	{
+		projectName: 'Gelatinous Classification',
+		projectDescription: `Development of a convolutional neural network using PyTorch for gelatinous 
+			zooplankton classification, thus automating the labeling of species on GelAvista Mobile APP. 
+	This project was done as a Capstone Project upon completion of the Bsc`,
+		projectLinks: [],
+		projectImage: 'gelavista_logo.png'
 	},
 	{
 		projectName: 'Personal Website',

@@ -45,7 +45,7 @@
 	.links_container {
 		display: flex;
 		justify-content: space-evenly;
-		flex-direction: row;
+		flex-direction: column;
 	}
 	.card_body {
 		display: flex;
@@ -92,7 +92,7 @@
 	}
 
 	.main_project {
-		width: 85% !important;
+		width: 100% !important;
 		flex-direction: column;
 		padding: 3vw 3vh;
 		opacity: 1;
@@ -113,7 +113,9 @@
 
 	@media only screen and (min-width: 600px) {
 		/* For tablets: */
-
+		.links_container {
+			flex-direction: row;
+		}
 		.card_body {
 			padding: 1rem;
 			margin-bottom: 0.5rem;
@@ -132,7 +134,9 @@
 			height: 14vw;
 			width: auto;
 		}
-
+		.links_container {
+			flex-direction: row;
+		}
 		.card_body {
 			padding: 1.3rem;
 			flex-direction: row;

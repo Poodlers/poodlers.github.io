@@ -122,11 +122,36 @@
 			width: 50%;
 		}
 		.main_image_text {
+			translate: -15vw -20vw;
 			font-size: 15px;
 		}
 		.center_content h1 {
 			font-size: 2.5rem;
 			margin-bottom: 0;
+		}
+
+		#main_image {
+			width: 50vw;
+			height: auto;
+		}
+	}
+
+	@media only screen and (max-width: 450px) {
+		.center_content {
+			width: 50%;
+		}
+		.main_image_text {
+			translate: -15vw -25vw;
+			font-size: 15px;
+		}
+		.center_content h1 {
+			font-size: 2.5rem;
+			margin-bottom: 0;
+		}
+
+		#main_image {
+			width: 70vw;
+			height: auto;
 		}
 	}
 </style>

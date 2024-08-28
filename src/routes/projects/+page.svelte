@@ -35,6 +35,10 @@
 			currentIndex = (currentIndex + 1) % projects.length;
 			currentlyDisplayedProjects = getClosestElements(projects, currentIndex);
 		}, 10000);
+		getNewClosestElements(scrollDirection);
+	}
+
+	function getNewClosestElements(scrollDirection) {
 		if (scrollDirection < 0) {
 			// Scrolling down
 			currentIndex = (currentIndex + 1) % projects.length;
@@ -44,6 +48,10 @@
 		}
 
 		currentlyDisplayedProjects = getClosestElements(projects, currentIndex);
+	}
+
+	function onClickProjectCard(index) {
+		getNewClosestElements(index == 0 ? 1 : -1);
 	}
 
 	let interval;
@@ -91,10 +99,11 @@
 						}}
 					>
 						<ProjectCard
+							on:click={() => onClickProjectCard(i)}
 							isMainProject={i === 1}
 							projectName={project.projectName}
 							projectDescription={project.projectDescription}
-							projectLink={project.projectLink}
+							projectLinks={project.projectLinks}
 							projectImage={project.projectImage}
 						/>
 					</div>

@@ -24,13 +24,27 @@
 		flex-direction: column;
 		align-items: center;
 		margin: 0 auto;
-
 		color: #000;
-		width: 60%;
+		width: 80%;
 		border-radius: 1rem;
 		opacity: 0.6;
 		font-size: 0.91rem;
 		transition: opacity 1s;
+	}
+
+	@media only screen and (min-width: 600px) {
+		/* For tablets: */
+
+		.text_block {
+			width: 80%;
+		}
+	}
+
+	@media only screen and (min-width: 900px) {
+		/* For desktop: */
+		.text_block {
+			width: 70%;
+		}
 	}
 
 	hr {

@@ -11,7 +11,7 @@
 </script>
 
 <div>
-	<a {href} class="text_button">
+	<a {href} target="_blank" class="text_button">
 		{text}
 	</a>
 </div>
@@ -21,8 +21,8 @@
 		display: block;
 		padding: 0.5rem 1rem;
 		background-color: #00bfb2;
-		color: #faf4d3;
-		border-radius: 0.5rem;
+		color: #586f7c;
+		border-radius: 9999px;
 		text-align: center;
 		text-decoration: none;
 		transition: background-color 0.5s;

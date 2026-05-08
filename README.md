@@ -1,38 +1,73 @@
-# create-svelte
+# Personal Website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A lightweight personal website and portfolio built with SvelteKit.
 
-## Creating a project
+The website serves as a central hub for my projects, social links and personal information, while also functioning as a small playground for experimenting with frontend UI interactions and responsive layouts.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
+
+- Project showcase section
+- About Me page
+- Social media and contact links
+- Responsive image carousel
+- Mobile-friendly responsive layout
+
+## Tech Stack
+
+- SvelteKit
+- JavaScript
+- HTML/CSS
+
+## Overview
+
+The website was designed with simplicity and minimalism in mind, focusing on:
+- fast navigation
+- lightweight frontend architecture
+- clean presentation of projects and personal information
+
+It also acts as a centralized portfolio for software engineering projects and experiments.
+
+## Live Website
+
+[Visit Website](https://poodlers.github.io/)
+
+## Local Development
+
+Install dependencies:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+npm install
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Run the development server:
 
 ```bash
 npm run dev
+```
 
-# or start the server and open the app in a new browser tab
+Open the app in a browser:
+
+```bash
 npm run dev -- --open
 ```
 
-## Building
+## Production Build
 
-To create a production version of your app:
+Create a production build:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Preview the production build locally:
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```bash
+npm run preview
+```
+
+## Future Improvements
+
+- Blog / writing section
+- Improved project filtering
+- Animations and transitions
+- Dark/light theme support

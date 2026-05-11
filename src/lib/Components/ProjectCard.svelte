@@ -14,6 +14,7 @@
 	export let projectLinks: { link: string; text: string }[] = [];
 	export let projectImage: string = '';
 	export let isMainProject: boolean = false;
+	export let projectTags: string[] = [];
 
 	import { createEventDispatcher } from 'svelte';
 
@@ -37,6 +38,13 @@
 					<TextButton href={link.link} text={link.text} />
 				{/each}
 			</div>
+			{#if projectTags?.length}
+				<div class="tags">
+					{#each projectTags as tag}
+						<span class="tag">{tag}</span>
+					{/each}
+				</div>
+			{/if}
 		{/if}
 	</div>
 </button>
@@ -60,6 +68,20 @@
 		opacity: 0.6;
 		font-size: 0.9rem;
 		transition: opacity 1s;
+	}
+	.tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.4rem;
+		margin-top: 0.8rem;
+	}
+
+	.tag {
+		font-size: 0.8rem;
+		padding: 0.25rem 0.55rem;
+		border-radius: 999px;
+		background: rgba(255, 255, 255, 0.12);
+		border: 1px solid rgba(255, 255, 255, 0.18);
 	}
 
 	h1 {

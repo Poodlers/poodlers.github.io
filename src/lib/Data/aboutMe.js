@@ -1,27 +1,39 @@
 export const aboutMe = `
-  <p>My name is Miguel Freitas, I am a software engineer from Portugal with a passion for <strong>Web Development</strong>. I'm very passionate about technology and I am always eager to learn new things. This website itself is my first crack at using Svelte as it was a framework I wanted to try out for a while now. 
+  <p>
+  Hey! I'm Miguel Freitas, a software engineer from Portugal mainly focused on building full-stack web applications and interactive digital experiences. 
+  I enjoy working across the entire stack, from designing frontend interfaces and user experiences to backend systems, APIs and infrastructure.
 
-Working freelance in the development of <a style="color:black; font-weight:bold"  href='https://www.jn.pt/3729560853/aplicacao-para-ajudar-a-controlar-a-ingestao-compulsiva/'> eMOTE</a> has given me a strong foundation in Front-End and Full-Stack Web Technologies, having accompanied the project from the requirements gathering phase all the way to its deployment. This has given me great experience in working with clients and understanding their needs, as well as valuable insight into the complete Software Development Life Cycle.
+  I’m currently working at <a style="color:black; font-weight:bold" href='https://lvengine.com' target='_blank'>LVENGINE</a>, where I contribute to the development of production-grade e-commerce platforms and CRM systems. 
+  My day-to-day work involves frontend and backend development, integrating third-party APIs, customizing business workflows and building AI-assisted tooling using OpenAI APIs. 
+  Over time I’ve gained experience working with technologies such as React, Next.js, Laravel, PostgreSQL, Docker and TailwindCSS while collaborating in Agile environments involving Git workflows, code reviews and CI/CD practices.
 
- I have just finished my Master's degree in Informatics Engineering at <a style="color:black; font-weight:bold" 
- href='https://fe.up.pt'> FEUP</a>, where I developed a strong background in software development practices and problem-solving skills.  My thesis was focused on the development of a <strong>user-friendly</strong> web-based editor for historians and museum curators to create experiences tailored around cultural heritage locations. This has profoundly deepened my appreciation for <strong>accessibility</strong> and <strong>user-centered design. </strong>
-  This project has sparked a greater focus on creating intuitive interfaces that cater to diverse user needs, ensuring that the tools I build are not only powerful but also <strong>inclusive</strong> and <strong>easy to navigate</strong>. It has reinforced my commitment to front-end development practices that prioritize <strong>accessibility</strong> and deliver seamless, enjoyable user experiences for all.
+  Alongside my professional work, I’ve also worked freelance on projects such as <a style="color:black; font-weight:bold" href='https://www.jn.pt/nacional/artigo/aplicacao-para-ajudar-a-controlar-a-ingestao-compulsiva/17778753' target='_blank'>eMOTE</a>,  a self-help platform developed in collaboration with FPCEUP focused on binge eating and emotional regulation. 
+  I worked on the project from the requirements gathering phase all the way to deployment, collaborating closely with both researchers and designers to deliver a polished and accessible user experience. 
+  That experience gave me a strong appreciation for product thinking, communication and the complete software development lifecycle.
 
-   I am always looking for new challenges and <strong>opportunities to learn and grow as a developer.</strong> 
-   In my free time, I enjoy <strong>playing video games</strong>, <strong>reading manga </strong>, <strong>watching anime</strong>,
-    and <strong>playing the flute</strong>. I also like to explore the outdoors and go on hikes, as you can see in the <a style="color:black; font-weight:bold"  href='/photos'>Pictures page</a>. 
-    </p>
-   `;
+  I recently completed my Master's degree in Informatics and Computing Engineering at <a style="color:black; font-weight:bold" href='https://fe.up.pt' target='_blank'>FEUP</a>, where my dissertation focused on the development of <strong>StoryWeaver</strong>, a browser-based augmented reality storytelling platform designed for museums and cultural heritage experiences. 
+  The project combined React, Node.js, MongoDB and browser-based AR technologies into a system where museum curators could visually create interactive narratives through a node-based editor. 
+  Building StoryWeaver deepened my interest in creating software that balances technical complexity with intuitive user experiences and accessibility.
+
+  More generally, I’m someone who genuinely enjoys building things and experimenting with technology. 
+  I spend a lot of time working on side projects, exploring new frameworks and trying to improve both as an engineer and as a collaborator.
+
+  Outside of programming, I enjoy playing the flute, watching football, learning languages and occasionally disappearing into manga, games or philosophy books. 
+  I also love travelling and spending time outdoors, which you can probably tell from the <a style="color:black; font-weight:bold" href='/photos'>Photos</a> page.
+  </p>
+`;
 
 export const whatImUpTo = `
-    <p>Currently looking for new opportunities to <strong>grow as a developer</strong> and <strong>expand my skillset</strong>. 
-    Looking for a position where I can work with a team of talented developers and learn from their experience.
+  <p>
+  Right now I’m mainly focused on continuing to grow as a full-stack engineer and working on products that have meaningful real-world impact.
 
-    I am also open to freelance opportunities and collaborations. If you have a project you would like to discuss, feel free to reach out to me. 
-    Always eager to take on new challenges. 
+  Lately I’ve been spending a lot of time deepening my backend and infrastructure knowledge while continuing to explore modern frontend technologies and UI/UX design. 
+  I've been enjoying experimenting with AI APIs and automation workflows whenever I get the chance.
 
-    As part of my Japanese learning journey, I keep on <strong>sentence-mining</strong> and <strong>immersing myself in the language</strong>.
-    Currently reading Camus' <strong>Myth of Sisyphus</strong>.
+  I’m always happy to connect with other engineers, designers, founders or generally curious people working on interesting ideas. 
+  If you’d like to chat about technology, collaboration opportunities, side projects or just exchange thoughts about anything feel free to reach out.
 
-    </p>
-    `;
+  Outside of work, I’m currently learning German, still slowly improving my Japanese through immersion and sentence mining, and trying to read more philosophy whenever I can. 
+  Recently I’ve been reading Camus' <strong>Myth of Sisyphus</strong>.
+  </p>
+`;

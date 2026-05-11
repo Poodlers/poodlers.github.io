@@ -27,15 +27,28 @@
 
 		return [array[prevIndex], array[currentIndex], array[nextIndex]];
 	}
+	let isScrolling = false;
+	let interval;
 
 	function onScroll(e) {
+		if (isScrolling) return;
+
+		isScrolling = true;
 		scrollDirection = Math.max(-1, Math.min(1, e.wheelDelta || -e.detail));
+
 		clearInterval(interval);
-		interval = setInterval(() => {
-			currentIndex = (currentIndex + 1) % projects.length;
-			currentlyDisplayedProjects = getClosestElements(projects, currentIndex);
-		}, 10000);
+		interval = setInterval(nextProject, 10000);
+
 		getNewClosestElements(scrollDirection);
+
+		setTimeout(() => {
+			isScrolling = false;
+		}, 500);
+	}
+
+	function nextProject() {
+		currentIndex = (currentIndex + 1) % projects.length;
+		currentlyDisplayedProjects = getClosestElements(projects, currentIndex);
 	}
 
 	function getNewClosestElements(scrollDirection) {
@@ -53,8 +66,6 @@
 	function onClickProjectCard(index) {
 		getNewClosestElements(index == 0 ? 1 : -1);
 	}
-
-	let interval;
 
 	onMount(() => {
 		loaded = true;
@@ -86,7 +97,7 @@
 			</IconButton>
 		</div>
 
-		<div class="container" on:mousewheel={(e) => onScroll(e)}>
+		<div class="container" on:wheel={onScroll}>
 			<ul class="slider">
 				{#each currentlyDisplayedProjects as project, i (project.projectName)}
 					<div
@@ -105,6 +116,7 @@
 							projectDescription={project.projectDescription}
 							projectLinks={project.projectLinks}
 							projectImage={project.projectImage}
+							projectTags={project.projectTags}
 						/>
 					</div>
 				{/each}

@@ -14,6 +14,7 @@
 	export let projectLinks: { link: string; text: string }[] = [];
 	export let projectImage: string = '';
 	export let isMainProject: boolean = false;
+	export let projectType: string = '';
 	export let projectTags: string[] = [];
 
 	import { createEventDispatcher } from 'svelte';
@@ -30,6 +31,9 @@
 	<img class="project_image" src={projectImage} alt={projectName} />
 	<div class="project_text_info">
 		<h1>{projectName}</h1>
+		{#if projectType}
+			<span class="project_type">{projectType}</span>
+		{/if}
 		{#if isMainProject}
 			<hr />
 			<p>{projectDescription}</p>
@@ -178,5 +182,18 @@
 
 	.card_body .project_text_info {
 		margin-left: 1rem;
+	}
+	.project_type {
+		display: inline-block;
+		margin-bottom: 0.5rem;
+		padding: 0.2rem 0.6rem;
+		border-radius: 999px;
+		font-size: 0.75rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.05rem;
+		background: rgba(250, 244, 211, 0.15);
+		border: 1px solid rgba(250, 244, 211, 0.3);
+		color: #faf4d3;
 	}
 </style>

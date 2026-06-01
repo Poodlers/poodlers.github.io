@@ -1,9 +1,45 @@
 export const projects = [
 	{
+		projectName: 'CRM & Business Operations Platforms',
+		projectDescription: `Professional work completed at LVENGINE. Contributed to the development and evolution of customer relationship management, procurement, and operational SaaS platforms used by organizations across multiple industries. Worked across the full stack implementing business workflows, reporting dashboards, role-based access control, API integrations, and shared platform functionality while collaborating directly with stakeholders to translate business requirements into reliable software solutions.`,
+		projectLinks: [],
+		projectType: 'Professional Experience',
+		projectImage: 'https://lvengine.com/interface/imgs/share-thumbnail.jpg',
+		projectTags: [
+			'React',
+			'TypeScript',
+			'Laravel',
+			'PostgreSQL',
+			'Docker',
+			'SaaS',
+			'CRM',
+			'Enterprise Software'
+		]
+	},
+	{
+		projectName: 'Custom CMS & E-Commerce Framework',
+		projectDescription: `Professional work completed at LVENGINE. Developed and maintained a configurable platform powering content management systems, e-commerce stores, and customer-facing web applications. Worked on reusable frontend and backend components, platform architecture, API design, customization features, and multi-client deployments with a strong focus on maintainability, scalability, and user experience.`,
+		projectLinks: [],
+		projectType: 'Professional Experience',
+		projectImage: 'https://lvengine.com/interface/imgs/share-thumbnail.jpg',
+		projectTags: [
+			'React',
+			'Next.js',
+			'TypeScript',
+			'Laravel',
+			'PostgreSQL',
+			'Docker',
+			'CMS',
+			'E-Commerce',
+			'Platform Engineering'
+		]
+	},
+	{
 		projectName: 'eMOTE',
 		projectDescription: `eMOTE is a self-help progressive web application for binge eating and emotional regulation developed as part of a PhD project at the Faculty of Psychology and Education Sciences of the University of Porto (FPCEUP). Built using React and ASP.NET Core for the backend.`,
 		projectLinks: [{ text: 'See the code', link: 'https://github.com/Poodlers/eMote' }],
 		projectImage: 'emote_logo.png',
+		projectType: 'Freelance Work',
 		projectTags: ['React', 'ASP.NET Core', 'Material UI', 'Chart.js', 'Full Stack']
 	},
 	{
@@ -11,10 +47,12 @@ export const projects = [
 		projectDescription: `A browser-based augmented reality storytelling platform developed as my MSc dissertation at FEUP. It includes a React-based visual editor for creating branching museum narratives, a player app for consuming location-aware AR experiences and a Node.js/MongoDB backend for persistence and media management.`,
 		projectLinks: [
 			{ text: 'See the code', link: 'https://github.com/Poodlers/StoryWeaver---MasterThesis' },
-			{ text: 'Open the Editor', link: 'https://storyweaver.netlify.app/' },
+			{ text: 'Open the Editor', link: 'https://story-weaver-editor.vercel.app/' },
+			{ text: 'Open the Player', link: 'https://story-weaver-player.vercel.app/' },
 			{ text: 'Read the thesis', link: 'https://repositorio-aberto.up.pt/handle/10216/161007' }
 		],
 		projectImage: 'icon_tese.png',
+		projectType: 'Academic Project',
 		projectTags: ['React', 'Node.js', 'MongoDB', 'AR.js', 'Three.js', 'ReactFlow']
 	},
 	{
@@ -25,6 +63,7 @@ export const projects = [
 			{ text: 'See the code', link: 'https://github.com/Poodlers/DDJD-praxemaster' }
 		],
 		projectImage: 'praxemaster_logo.png',
+		projectType: 'Academic Project',
 		projectTags: ['Unity', 'C#', 'Game Development']
 	},
 	{
@@ -35,6 +74,7 @@ export const projects = [
 			{ text: 'See the code', link: 'https://github.com/JFernandes2612/Miasma' }
 		],
 		projectImage: 'miasma_logo.png',
+		projectType: 'Academic Project',
 		projectTags: ['Unity', 'C#', '3D FPS', 'Game Development']
 	},
 	{
@@ -42,6 +82,7 @@ export const projects = [
 		projectDescription: `Development of a convolutional neural network using PyTorch for gelatinous zooplankton classification, automating the labelling of species on the GelAvista mobile app. Developed as a BSc capstone project.`,
 		projectLinks: [],
 		projectImage: 'gelavista_logo.png',
+		projectType: 'Internship Project',
 		projectTags: ['Python', 'PyTorch', 'CNN', 'Computer Vision', 'Machine Learning']
 	},
 	{
@@ -50,6 +91,7 @@ export const projects = [
 			'A lightweight personal website and portfolio used to showcase my projects, links and personal information. Built using SvelteKit.',
 		projectLinks: [{ text: 'See the code', link: 'https://github.com/Poodlers/personal-website' }],
 		projectImage: 'portfolio_logo.jpg',
+		projectType: 'Personal Project',
 		projectTags: ['SvelteKit', 'JavaScript', 'Portfolio']
 	},
 	{
@@ -66,6 +108,7 @@ export const projects = [
 			}
 		],
 		projectImage: 'vota_logo.png',
+		projectType: 'Personal Project',
 		projectTags: ['Flutter', 'ASP.NET Core', 'Civic Tech', 'APIs', 'Data Pipeline']
 	},
 	{
@@ -75,6 +118,7 @@ export const projects = [
 			{ text: 'See the code', link: 'https://github.com/Poodlers/gabi-miguel-album' },
 			{ text: 'Open the Album', link: 'https://gabi-miguel-album.vercel.app/' }
 		],
+		projectType: 'Personal Project',
 		projectImage: 'https://img1.picmix.com/output/stamp/normal/4/6/5/4/2444564_f86a6.gif',
 		projectTags: ['SvelteKit', 'MongoDB', 'Cloudinary', 'React', 'GSAP']
 	},
@@ -83,6 +127,7 @@ export const projects = [
 		projectDescription: `A small Python/PyGame visualization of the A* search algorithm developed during my first year at university. It allows users to create a grid, define start/end points, place obstacles and visualize the computed shortest path.`,
 		projectLinks: [{ text: 'See the code', link: 'https://github.com/Poodlers/a-estrela' }],
 		projectImage: 'https://media.geeksforgeeks.org/wp-content/uploads/a_-search-algorithm-1.png',
+		projectType: 'Personal Project',
 		projectTags: ['Python', 'PyGame', 'Algorithms', 'Pathfinding']
 	},
 	{
@@ -91,6 +136,7 @@ export const projects = [
 		projectLinks: [{ text: 'See the code', link: 'https://github.com/Poodlers/ESOF-2021-2022' }],
 		projectImage:
 			'https://play-lh.googleusercontent.com/tDdItPwdEDXa04vCPdTA5Sc7mGlg3toYn3jdAFY4DgSeqhVUyE5IDEf5ojQ8-QwlbW8=w240-h480-rw',
+		projectType: 'Academic Project',
 		projectTags: ['Flutter', 'Dart', 'BDD Testing', 'Flutter Gherkin', 'Agile']
 	}
 ];
